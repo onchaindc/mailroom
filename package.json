@@ -1,0 +1,25 @@
+{
+  "name": "mailroom",
+  "version": "1.0.0",
+  "private": true,
+  "description": "One email design, written once and compiled for every sending service. Built with @hyper-elements/react.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsx src/build.tsx",
+    "verify": "tsx scripts/verify.tsx",
+    "check": "tsc --noEmit",
+    "all": "npm run build && npm run verify"
+  },
+  "dependencies": {
+    "@hyper-elements/react": "^0.5.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^18.3.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
